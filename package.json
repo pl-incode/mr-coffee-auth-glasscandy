@@ -1,0 +1,34 @@
+{
+  "name": "mr-coffee-auth-glasscandy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pl-incode/mr-coffee-auth-glasscandy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pl-incode/mr-coffee-auth-glasscandy/issues"
+  },
+  "homepage": "https://github.com/pl-incode/mr-coffee-auth-glasscandy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "js-sha256": "^0.9.0",
+    "mustache": "^4.2.0",
+    "mustache-express": "^1.3.2",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}

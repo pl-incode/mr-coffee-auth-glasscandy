@@ -1,0 +1,119 @@
+html, body, ul, li, div, p, a, form, section, footer, header, nav, img, input, select, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(236, 235, 235);
+}
+
+a:visited, a:link {
+    color: rgb(236, 235, 235);
+}
+
+a:hover {
+    color: rgb(194, 194, 194);
+}
+
+.container {
+    margin: 0 auto;
+    width: 780px;
+}
+
+/*H2*/
+.title{
+    padding: 50px 0 20px 0;
+    text-align: center;
+    color: rgb(92,91,91);
+    font-weight: normal;
+}
+
+button {
+    background-color: rgb(106,123,139);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(236, 235, 235);
+    border-radius: 6px;
+    height: 45px;
+    width: 200px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(137, 143, 148, 0.699);
+    margin: 0 auto;
+}
+
+/*nav bar*/
+header {
+    background-color: rgb(106,123,139);
+}
+
+.nav-bar {
+    padding: 10px 30px 10px 30px;
+    height: 35px;
+}
+
+.logo-nav {
+    float: left;
+    height: 35px;
+    width: 100px;
+}
+
+nav {
+    float: right;
+    font-size: 9px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header li {
+    display: inline-block;
+    padding: 12px 10px 10px 0px;
+}
+
+.logo-main-black {
+    text-align: center;
+}
+
+.logo-main {
+    height: 110px;
+    width: 110px;
+}
+
+/*footer bar*/
+footer {
+    height: 70px;
+    background-color: rgb(106,123,139);
+    padding: 10px 30px 10px 30px;
+}
+
+.logo-footer {
+    float: left;
+    height: 60px;
+    width: 40px;
+    padding: 5px 5px;
+}
+
+.social {
+    margin: auto;
+    height: 70px;
+    width: 200px;
+}
+
+.social-text {
+    font-size: 7px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(236, 235, 235);
+}
+
+.footer-icons {
+    padding: 0 40px 0 40px;
+}
+
+.icon {
+    padding: 15px 10px 0 10px;
+    height: 15px;
+    width: 15px;
+}

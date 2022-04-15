@@ -1,0 +1,109 @@
+.table-link {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+.table-link a {
+    font-size: 13px;
+    color: rgb(92,91,91);
+    font-weight: bold;
+}
+
+.table-link a:hover {
+    color: rgb(194, 194, 194);
+}
+
+/* '/schedules' */
+.table {
+    padding: 40px 0 100px 0;
+    margin: 0 auto;
+    width: 80%;
+    color: rgb(92,91,91);
+}
+
+.table a {
+    color: rgb(92,91,91);
+}
+
+.table a:hover {
+    color: rgb(194, 194, 194);
+}
+
+.table-row-name {
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.table-row-name, .table-row {
+    text-align: center;
+    vertical-align: top;
+    font-weight: normal;
+    width: 25%;
+}
+
+/* /schedule/new */
+.form-content {
+    padding: 40px 0 100px 0;
+}
+
+select, input {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(203, 209, 214);
+    border: 0;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(92,91,91);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.ampm {
+    width: 50%;
+}
+
+.flex input {
+    margin-right: 3%;
+}
+
+.form button {
+    margin-top: 30px;
+}
+
+/* '/user' */
+/* '/users/new' */
+.users-content { 
+    padding-bottom: 50px;
+}
+
+.userInfo {
+    padding-top: 40px;
+}
+
+.userInfo h3, p, .userSch h3{
+    text-align: center;
+    color: rgb(92,91,91);
+    font-weight: normal;
+
+}
+
+.userInfo h3 {
+    padding-bottom: 20px;
+}
+
+.userInfo p {
+    font-size: 14px;
+}
+
+/* '/login'*/
+.error-msg {
+    color: rgb(152, 0, 0);
+}
